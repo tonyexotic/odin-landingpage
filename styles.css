@@ -6,13 +6,66 @@ body {
     flex-direction: column;
 }
 
+header, .hero, footer {
+    background-color: #1f2937;
+}
+
 header {
     display: flex;
     justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 32px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d747d;
+    width: 500px;
+    height: 250px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+    align-self: flex-start;
+    padding: 8px 32px;
 }
